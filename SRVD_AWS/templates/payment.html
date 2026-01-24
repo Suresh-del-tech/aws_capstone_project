@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block content %}
+<body>
+  <link rel="stylesheet" href="train.css">
+
+<form method="post">
+  <h3>💳 Payment</h3>
+  <input class="form-control mb-2" placeholder="Card Number" required>
+  <input class="form-control mb-2" placeholder="Expiry Date" required>
+  <input class="form-control mb-2" placeholder="CVV" required>
+  <button class="btn btn-success">Pay & Confirm</button>
+  <a href="/ticket" class="btn btn-info">View Ticket</a>
+</form>
+</body>
+{% endblock %}

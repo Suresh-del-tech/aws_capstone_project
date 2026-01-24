@@ -1,0 +1,341 @@
+body{
+    background-image: url('srvd.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    
+}
+form{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 400px;
+    border: 1px solid black;
+    align-items: center;
+    margin: auto;
+    margin-top: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: inset -5px -5px  rgba(0, 0, 0, 0.5);
+    border-radius: 25px;         
+        
+}
+.h3{
+    color: white;
+    font-size: 2rem;
+    border-bottom: 4px solid rgba(255, 255, 255, 0.5);
+    margin: 50px;
+}
+
+input{
+    height: auto;
+    width: 65%;
+    margin: 20px;
+    border-radius: 10px;
+    border: none;
+    padding: 12px;
+    outline: none;
+    font-size: 1rem;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: inset -3px -3px  rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 1rem;
+}
+#login{
+    padding: 10px 20px;
+    margin-top: 50px;
+    width: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: inset -3px -3px  rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 1rem;
+}
+#login:hover{
+    background-color: rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+    color: white;
+}
+label{
+    color: white;
+    font-size: 1.2rem;
+    margin-top: 10px;
+    text-align: center;
+}
+form div h3{
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+    border-bottom: 4px solid rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+}
+button{
+    padding: 10px 20px;
+    margin-top: 20px;
+    width: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: inset -3px -3px  rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 1rem;
+}
+button:hover{
+    background-color: rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+    color: white;
+}
+.body{
+    background-image: url('srvd.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    width: 500px;
+    border: 1px solid black;
+    align-items: center;
+    margin: auto;
+    margin-top: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: inset -5px -5px  rgba(0, 0, 0, 0.5);
+    border-radius: 25px;         
+        
+}
+form h3{
+    color: white;
+    font-size: 2rem;
+    border-bottom: 4px solid rgba(255, 255, 255, 0.5);
+    margin: 50px;
+}
+form input{
+    height: auto;
+    width: 70%;
+    margin: 15px;
+    border-radius: 10px;
+    border: none;
+    padding: 12px;
+    outline: none;
+    font-size: 1rem;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: inset -3px -3px  rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 1rem;
+}
+form button{
+    padding: 10px 20px;
+    margin-top: 30px;
+    width: 40%;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: inset -3px -3px  rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 1rem;
+}
+.dashboard-container {
+    min-height: 80vh;               /* Full height */
+    display: flex;
+    justify-content: center;       /* Horizontal center */
+    align-items: center;           /* Vertical center */
+}
+
+.dashboard-box {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    max-width: 400px;
+    width: 100%;
+}
+.dashboard-box h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+.dashboard-box p {
+    font-size: 1.1rem;
+    color: #555;
+}
+.dashboard-box a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 25px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+}
+.dashboard-box a:hover {
+    background-color: #0056b3;
+}
+body{
+    background-image: url('srvd.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    
+}
+form{
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    width: 500px;
+    border: 1px solid black;
+    align-items: center;
+    margin: auto;
+    margin-top: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: inset -5px -5px  rgba(0, 0, 0, 0.5);
+    border-radius: 25px;         
+        
+}
+form h3{
+    color: white;
+    font-size: 2rem;
+    border-bottom: 4px solid rgba(255, 255, 255, 0.5);
+    margin: 50px;
+}
+form input{
+    height: auto;
+    width: 70%;
+    margin: 15px;
+    border-radius: 10px;
+    border: none;
+    padding: 12px;
+    outline: none;
+    font-size: 1rem;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: inset -3px -3px  rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 1rem;
+}
+form button{
+    padding: 10px 20px;
+    margin-top: 30px;
+    width: 40%;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: inset -3px -3px  rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 1rem;
+}
+form button:hover{
+    background-color: rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+    color: white;
+}
+label{
+    color: white;
+    font-size: 1.2rem;
+    margin-top: 10px;
+    text-align: center;
+}
+form div h3{
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+    border-bottom: 4px solid rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+}
+button{
+    padding: 10px 20px;
+    margin-top: 20px;
+    width: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: inset -3px -3px  rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 1rem;
+}
+button:hover{
+    background-color: rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+    color: white;
+}
+label{
+    color: white;
+    font-size: 1.2rem;
+    margin-top: 10px;
+    text-align: center;
+}
+.ticket-container {
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ticket-card {
+  background: #fff;
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+  width: 100%;
+  max-width: 450px;
+}
+.ticket-card h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+/* Admin Dashboard Page */
+.admin-dashboard {
+    background: linear-gradient(135deg, #1f2933, #111827);
+    min-height: 80vh;
+    padding: 50px;
+    border-radius: 12px;
+    color: #ffffff;
+    text-align: center;
+}
+
+/* Heading */
+.admin-dashboard h3 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+/* Welcome text */
+.admin-dashboard p {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+    color: #d1d5db;
+}
+
+/* Buttons */
+.admin-dashboard a.btn {
+    display: inline-block;
+    margin: 10px;
+    padding: 12px 20px;
+    font-size: 1rem;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+/* Hover effect */
+.admin-dashboard a.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
+
+/* Make it responsive */
+@media (max-width: 600px) {
+    .admin-dashboard a.btn {
+        width: 100%;
+        margin: 8px 0;
+    }
+}

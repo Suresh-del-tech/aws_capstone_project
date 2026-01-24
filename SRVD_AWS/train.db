@@ -1,0 +1,34 @@
+id INTEGER PRIMARY KEY AUTOINCREMENT,
+user_id INTEGER NOT NULL,
+train_id INTEGER NOT NULL,
+passenger_name TEXT NOT NULL,
+passenger_age INTEGER NOT NULL,
+gender TEXT NOT NULL,
+berth_preference TEXT NOT NULL,
+journey_date DATE NOT NULL,
+seat_number TEXT NOT NULL,
+pnr TEXT UNIQUE NOT NULL,
+booking_status TEXT DEFAULT 'Confirmed',
+fare REAL NOT NULL,
+booking_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+FOREIGN KEY (user_id) REFERENCES users (id),
+FOREIGN KEY (train_id) REFERENCES trains (id)
+
+CREATE TABLE IF NOT EXISTS bookings (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    user_id INTEGER NOT NULL,
+    train_id INTEGER NOT NULL,
+    passenger_name TEXT NOT NULL,
+    passenger_age INTEGER NOT NULL,
+    gender TEXT NOT NULL,
+    berth_preference TEXT NOT NULL,
+    journey_date DATE NOT NULL,
+    seat_number TEXT NOT NULL,
+    pnr TEXT UNIQUE NOT NULL,
+    booking_status TEXT DEFAULT 'Confirmed',
+    fare REAL NOT NULL,
+    booking_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (user_id) REFERENCES users (id),
+    FOREIGN KEY (train_id) REFERENCES trains (id)
+);
+);

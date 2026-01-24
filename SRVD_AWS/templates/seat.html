@@ -1,0 +1,11 @@
+{% for i in range(1, 41) %}
+<body>
+  <link rel="stylesheet" href="train.css">
+  <button type="button"
+          class="seat {% if i in booked %}booked{% else %}available{% endif %}"
+          {% if i in booked %}disabled{% endif %}>
+          {{ i }}
+  </button>
+  </button>
+  </body>
+{% endfor %}
