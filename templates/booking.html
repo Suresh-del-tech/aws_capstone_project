@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% block content %}
+<body>
+  <link rel="stylesheet" href="train.css">
+<div class="booking-container">
+  <div class="booking-box text-center">
+    <form method="post" action="/ticket">
+      <h3>🚆 Passenger Details</h3>
+      <input type="hidden" name="train_id" value="{{ train_id }}">
+      <input name="name" class="form-control mb-3" placeholder="Passenger Name" required>
+      <input name="age" class="form-control mb-3" placeholder="Age" required>
+      <button class="btn btn-success w-100">Generate Ticket</button>
+      <a href="/search" class="btn btn-danger w-100 mt-2">Back to Search</a>
+    </form>
+  </div>
+</div>
+</body>
+{% endblock %}

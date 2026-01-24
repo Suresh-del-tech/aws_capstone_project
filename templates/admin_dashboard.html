@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% block content %}
+<body>
+  <link rel="stylesheet" href="train.css">
+<form>
+<p>Welcome, {{admin}}</p>
+<h3>👨‍💼 Admin Dashboard</h3>
+<a href="/admin/add-train" class="btn btn-success">➕ Add Train</a>
+<a href="/admin/trains" class="btn btn-info">🚆 View Trains</a>
+<a href="/admin/bookings" class="btn btn-warning">📄 View Bookings</a>
+<a href="/admin/logout" class="btn btn-danger">Logout</a>
+</form>
+</body>
+{% endblock %}

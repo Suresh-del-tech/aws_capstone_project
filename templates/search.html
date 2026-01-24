@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+{% block content %}
+<body>
+  <link rel="stylesheet" href="train.css">
+  <form method="post">
+    <h3>Search Trains</h3>
+    <input name="source" class="form-control mb-2" placeholder="Source" required>
+    <input name="destination" class="form-control mb-2" placeholder="Destination" required>
+    <button class="btn btn-primary">Search</button>
+    <a href="/booking" class="btn btn-info">booking</a>
+    <a href="/login.html" class="btn btn-info">Back to Login</a>
+  </form>
+    <hr>
+{% for t in trains %}
+  <div class="card p-3 mb-2">
+    <p><b>{{ t[1] }}</b> | {{ t[2] }} → {{ t[3] }} | {{ t[4] }}</p>
+
+    <!-- 🔗 Go to booking page -->
+  
+      Book Now
+    </a>
+  </div>  
+     
+</body>
+{% endfor %}
+{% endblock %}
