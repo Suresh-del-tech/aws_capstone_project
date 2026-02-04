@@ -16,7 +16,7 @@ users_table = dynamodb.Table("Users")
 trains_table = dynamodb.Table("Trains")
 bookings_table = dynamodb.Table("Bookings")
 
-SNS_TOPIC_ARN = "arn:aws:sns:us-east-1:604665149129:aws_train_topic"
+SNS_TOPIC_ARN = "arn:aws:sns:us-east-1:677276115176:project_topics"
 
 def send_notification(subject, message):
     try:
@@ -151,3 +151,4 @@ def admin_logout():
 
 if __name__ == "__main__":
     app.run(debug=True)
+
